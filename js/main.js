@@ -1,28 +1,28 @@
-var sales__title = $('.sales__title');
-var sales__details = $('.sales__details');
+var sales__1 = $('.sales__1');
+var sales__details__1 = $('.sales__details__1');
 
 var buttonClickHandler = function () {
-	var currentState = sales__details.attr('data-state')
+	var currentState = sales__details__1.attr('data-state')
 	if (currentState== 'active') {
-		sales__details.attr('data-state', 'inactive');
+		sales__details__1.attr('data-state', 'inactive');
 	} else {
-		sales__details.attr('data-state', 'active');
+		sales__details__1.attr('data-state', 'active');
 	}
 };
+sales__1.on('click', buttonClickHandler);
 
-sales__title.on('click', buttonClickHandler);
 
-
-var sales__total = $('.sales__total');
-var sales__details = $('.sales__details');
+var sales__2 = $('.sales__2');
+var sales__details__2 = $('.sales__details__2');
 
 var buttonClickHandler = function () {
-	var currentState = sales__details.attr('data-state')
+	var currentState = sales__details__2.attr('data-state')
 	if (currentState== 'active') {
-		sales__details.attr('data-state', 'inactive');
+		sales__details__2.attr('data-state', 'inactive');
 	} else {
-		sales__details.attr('data-state', 'active');
+		sales__details__2.attr('data-state', 'active');
 	}
 };
+sales__2.on('click', buttonClickHandler);
 
-sales__total.on('click', buttonClickHandler);
+

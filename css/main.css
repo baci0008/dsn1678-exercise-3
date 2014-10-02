@@ -97,6 +97,7 @@ body {
 	opacity: 1;
 }
 
+
 .sales__details::before {
   top: -10px;
   content: " ";
